@@ -1,0 +1,90 @@
+*
+{
+    margin:0;
+    padding:0
+}
+.logo
+{
+  width:30%;
+  height:30%;
+  margin-left:500px
+}
+
+.header{
+    padding: 0;
+    font-family: "kristen ITC",monospace;
+    font-size: 15px;
+    background:#333;
+    width: 1425px;
+}
+ul {
+    list-style-type: none;
+    margin-bottom:10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+li {
+    float: left;
+    padding: 10px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 2px;
+
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+.one
+{
+    margin-left: 400px;
+}
+h1
+{
+    font-size: 30px;
+    margin: 10px 0 0 7px;
+    font-family: fantasy
+}
+p
+{
+    font-size: 26px;
+    color:rgb(152,24,91);
+    margin-left: 7px;
+    font-family: fantasy
+}
+span
+{
+    text-transform: uppercase;
+    font-style: italic
+}
+.end
+{
+    font-size: 22px;
+    color:#000
+}
+address
+{
+   font-size: 14px;
+   text-align: center;
+   margin: 20px 0 10px 
+}
+
+footer {
+    background:#333;
+    color:#FFF;
+    padding:10px;
+    text-align:center;
+    font-size:13px;
+    letter-spacing: 0.5px
+    
+}

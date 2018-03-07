@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Feedback</title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body>
+        
+        <img class="logo" src="image/LOGO.jpg" alt="company logo" >
+        <ul class="header">
+            <li class="one"><a href="fronpage.html">Home</a></li>
+            <li><a href="mobile.html">Mobiles</a></li>
+            <li><a href="laptop.html">Laptops</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+        <h1>Feedback Section</h1>
+        <div class=divv>
+            <div>your opinion matters</div>
+            <br>
+            <label> Name </label>
+            <br>
+            <form action="submit.php" method="POST">
+             <input class=tele type="text" required name="firstname">
+           <br>
+           <label>Address</label>
+           <br>
+             <textarea rows="3" cols="50" required name ="address"></textarea>
+           <br>
+           <label> Country</label>
+           <br><br>
+           <select required name="country">
+             <option>Abu Dhabi</option>
+             <option>Egypt</option>
+             <option>London</option>
+           </select>
+           <br><br>
+           <label>Gender</label>
+           <input type="radio" required name="gender" value="male" >male
+           <input type="radio" required name="gender" value="female">female
+           <br><br>
+           <label>mobile no.</label>
+           <br>
+           <input class=tele type="tel" required name="mobile">
+           <br><br>
+            <label>Please keep your comment here</label>
+            <br>
+           <textarea rows="5" cols="120" required name="feedback" ></textarea>
+           <br>
+           <img src="homepic.png"> <br>
+           <input type="button" value=" send " >
+        </div>
+        
+             <footer>
+               Copyright &copy; 2017 All Right Reserved To Alaa Amin 
+            </footer>
+             
+    </body>
+ 
+</html>

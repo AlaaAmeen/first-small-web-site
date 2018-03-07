@@ -1,0 +1,105 @@
+*
+{
+    margin:0;
+    padding:0
+}
+.logo
+{
+  width:30%;
+  height:30%;
+  margin-right: 500px
+}
+
+.header{
+    padding: 0;
+    font-family: "kristen ITC",monospace;
+    font-size: 15px;
+    background:#333;
+    width: 1425px;
+}
+ul {
+    list-style-type: none;
+    margin-bottom:10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+li {
+    float: left;
+    padding: 10px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 2px;
+
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+.one
+{
+    margin-left: 400px;
+}
+h1
+{
+ text-align: center;
+ color:#fff;
+ background: #333;
+ font-size: 30px;
+ margin-bottom: 30px;
+}
+div
+{
+  font-size:20px;
+  color:rgb(152,24,91);
+  text-align: center;
+  font-family: monospace;
+  letter-spacing: -2px;
+  font-weight: bold
+  
+}
+label
+{
+  padding: 5px;
+  margin-bottom: 10px
+}
+textarea
+{
+  margin: 15px;
+  font-size: 20px;
+  color:rgb(152,24,91);
+  font-family:fantasy
+}
+img
+{
+  width: 15%;
+  height: 15%;
+  float: right;
+
+}
+input
+{
+  background-position:50% 50% ;
+  width: 100px;
+  height: 30px;
+  margin:10px
+}
+footer {
+    background:#333;
+    color:#FFF;
+    padding:10px;
+    text-align:center;
+    font-size:13px;
+    letter-spacing: 0.5px;
+    margin-top: 150px
+    
+}
